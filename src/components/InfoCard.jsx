@@ -59,7 +59,7 @@ const CardContainer = styled.div`
         font-size: 1.5em;
         color: rgb(88 199 250 / 100%);
         font-family: cursive;
-        margin: 3rem;
+        margin: 3rem 3rem 1rem 3rem;
     }
     h2 {
         font-size: 1.5rem;
@@ -124,17 +124,16 @@ const CardContainer = styled.div`
 const InfoCard = () => {
   return (
     <CardContainer>
-      <div className="card">
+      <div id="research" className="card">
         <section>
           <div className="small-container">
             <hr className="grounded-radiants" />
             <h2>What's Going Inside</h2>
           </div>
           <div className="headline-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
-            earum non, obcaecati fugiat inventore sint deserunt expedita laborum
-            eaque, labore dolorem quas nobis maiores itaque quasi excepturi
-            atque ipsam unde.
+            We at bi0s, continuously research,work on improving and creating new
+            techniques to design, tweak, manipulate and exploit hardware to make
+            devices safe, from the beginning for a safer world.
           </div>
         </section>
         <span></span>
@@ -149,60 +148,63 @@ const InfoCard = () => {
               <hr className="grounded-radiants" />
               <h2>Embedded Systems</h2>
               <p className="grid-item-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                officiis exercitationem eligendi dolorem eos veritatis pariatur
-                autem dolorum ex, tenetur laudantium sequi reiciendis molestiae
-                voluptatum porro quam, vitae ab vel.
+                Embedded systems include a variety of hardware and software
+                components, which perform specific functions in host systems,
+                for example, satellites, washing machines, robots, hand-held
+                telephones and automobiles.
               </p>
             </div>
             <div className="grid-item">
               <hr className="grounded-radiants" />
-              <h2>Embedded Systems</h2>
+              <h2>Firmware Analysis</h2>
               <p className="grid-item-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                officiis exercitationem eligendi dolorem eos veritatis pariatur
-                autem dolorum ex, tenetur laudantium sequi reiciendis molestiae
-                voluptatum porro quam, vitae ab vel.
+                Firmware is the code that runs on an embedded device.In embedded
+                systems, manufacturers usually go for functionality over
+                security to decrease manufacturing cost.We analyze the firmware,
+                to find various security vulnerabilities present.
               </p>
             </div>
             <div className="grid-item">
               <hr className="grounded-radiants" />
-              <h2>Embedded Systems</h2>
+              <h2>Wireless Security</h2>
               <p className="grid-item-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                officiis exercitationem eligendi dolorem eos veritatis pariatur
-                autem dolorum ex, tenetur laudantium sequi reiciendis molestiae
-                voluptatum porro quam, vitae ab vel.
+                As everything is getting mobile and wireless, the urgency for
+                effective wireless threat protection is on everyone's watch, as
+                wireless networks are developed rapidly making them vulnerable
+                in a myriad of ways.
               </p>
             </div>
             <div className="grid-item">
               <hr className="grounded-radiants" />
-              <h2>Embedded Systems</h2>
+              <h2>Automotive Security</h2>
               <p className="grid-item-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                officiis exercitationem eligendi dolorem eos veritatis pariatur
-                autem dolorum ex, tenetur laudantium sequi reiciendis molestiae
-                voluptatum porro quam, vitae ab vel.
+                With consumers expecting new complex features for their ride,
+                it's getting difficult for engineers to make systems that go
+                hand in hand with security and required technicalities. We look
+                into the extremely complex systems of vehicle security and make
+                sure that it keeps up with the new features.
               </p>
             </div>
             <div className="grid-item">
               <hr className="grounded-radiants" />
-              <h2>Embedded Systems</h2>
+              <h2>ICS / SCADA</h2>
               <p className="grid-item-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                officiis exercitationem eligendi dolorem eos veritatis pariatur
-                autem dolorum ex, tenetur laudantium sequi reiciendis molestiae
-                voluptatum porro quam, vitae ab vel.
+                SCADA and Industrial Control Systems systems have been
+                relatively excluded from security testing by the security
+                industry. This has made them vulnerable and leading to some
+                successful intrusions that have resulted in malicious attackers
+                obtaining administrative access to core systems.
               </p>
             </div>
             <div className="grid-item">
               <hr className="grounded-radiants" />
-              <h2>Embedded Systems</h2>
+              <h2>Side Channel Exploitation</h2>
               <p className="grid-item-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                officiis exercitationem eligendi dolorem eos veritatis pariatur
-                autem dolorum ex, tenetur laudantium sequi reiciendis molestiae
-                voluptatum porro quam, vitae ab vel.
+                A side-channel attack is a security exploit that aims to gather
+                information from or influence the program execution of a system
+                by measuring or exploiting indirect effects of the system or its
+                hardware -- rather than targeting the program or its code
+                directly.
               </p>
             </div>
           </div>
