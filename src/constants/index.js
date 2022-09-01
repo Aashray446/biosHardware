@@ -6,16 +6,20 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "aboutus",
+    title: "About Us",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "research",
+    title: "Research",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "team",
+    title: "Team",
+  },
+  {
+    id: "conatct",
+    title: "Conatct",
   },
 ];
 
@@ -47,7 +51,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "I can vouch for their superior technical skills, dedication and enthusiasm. The training they receive is excellent. ",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -55,7 +59,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Freshers from Amrita are better than experienced people I have hired from outside. 8 out of 12 people in the security team are Amrita alumni.",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -63,18 +67,18 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "I am very happy with their performance, especially level of understanding in cyber security.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
-    img: people03,
+    // img: people03,
   },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "CTF Team in India",
+    value: "#1",
   },
   {
     id: "stats-2",
@@ -177,21 +181,21 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
+// export const clients = [
+//   {
+//     id: "client-1",
+//     logo: airbnb,
+//   },
+//   {
+//     id: "client-2",
+//     logo: binance,
+//   },
+//   {
+//     id: "client-3",
+//     logo: coinbase,
+//   },
+//   {
+//     id: "client-4",
+//     logo: dropbox,
+//   },
+// ];
