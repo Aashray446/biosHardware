@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./style";
 import { Billing, Business, CardDeal, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import OurTeam from './components/OurTeam';
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
         <Testimonials />
         <CardDeal />
         <CTA />
+        <OurTeam />
         <Footer />
       </div>
     </div>
