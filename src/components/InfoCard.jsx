@@ -27,7 +27,6 @@ const CardContainer = styled.div`
     display: flex;
     font-size: 1.5em;
     color: rgb(88 199 250 / 100%);
-    font-family: cursive;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
   }
   hr {
@@ -58,7 +57,6 @@ const CardContainer = styled.div`
         text-align: left;
         font-size: 1.5em;
         color: rgb(88 199 250 / 100%);
-        font-family: cursive;
         margin: 3rem 3rem 1rem 3rem;
     }
     h2 {
@@ -139,7 +137,8 @@ const InfoCard = () => {
         <span></span>
         <section>
           <h1>Our Fields of Research</h1>
-          <div className="side-text">Explore the library</div>
+          {/* <div className="side-text">Explore the library</div> */}
+          <button class="rounded-full bg-transparent border-2 text-end ml-[35rem] p-[1rem] text-lg border-cyan-700" onClick={"https://wiki.bi0s.in/"}>Explore The Library</button>
         </section>
         <span></span>
         <section>

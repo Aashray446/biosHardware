@@ -24,6 +24,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import WebSecurity from './WebSecurity.png';
+import biosLogo from './biosLogo.png';
 
 export {
   airbnb,
@@ -38,6 +39,7 @@ export {
   send,
   shield,
   star,
+  biosLogo,
   menu,
   close,
   google,
