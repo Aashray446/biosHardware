@@ -129,8 +129,8 @@
   filter: blur(123px);
 }
 
-.pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+.cyan__gradient {
+  background: linear-gradient(90deg, #1e7899 0%, #07707b 100%);
   filter: blur(900px);
 }
 

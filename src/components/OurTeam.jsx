@@ -8,8 +8,11 @@ export default function OurTeam() {
 
   return (
     <>
-      <div className="mb-[5rem]">
+      <div id="team" className="mb-[5rem]">
         <div className="flex flex-row items-center text-left">
+        {/* <h2 className={styles.heading2}>
+      Our Hardware CTF
+      </h2> */}
           <h1 className="text-white text-4xl font-extrabold mb-10 font-poppins justify-start">
             Our Team
           </h1>
@@ -28,7 +31,7 @@ export default function OurTeam() {
           })}
         </div>
       </div>
-      <Teampage />
+      {/* <Teampage /> */}
     </>
   );
 }

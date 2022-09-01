@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./style";
+import Hero from "./components/Hero";
 import {
-  Business,
+  About,
   CardDeal,
   Stats,
   Testimonials,
@@ -15,8 +16,13 @@ import OurTeam from "./components/OurTeam";
 function Home() {
   return (
     <div>
+         <div className={`bg-primary ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Hero />
+          </div>
+        </div>
       <Stats />
-          <Business />
+          <About />
           <InfoCard />
           <Testimonials />
           <CardDeal />
