@@ -23,7 +23,7 @@ const CardContainer = styled.div`
     height: var(--card-height);
     padding: 3px;
     position: relative;
-    border-radius: 6px;
+    border-radius: 20px;
     display: flex;
     font-size: 1.5em;
     color: rgb(88 199 250 / 100%);
