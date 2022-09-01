@@ -27,7 +27,7 @@ const Hero = () => {
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[80%] h-[35%] top-0 pink__gradient" />
-        <div className="absolute z-[0] w-[60%] h-[80%] rounded-full white__gradient bottom-40" />
+        {/* <div className="absolute z-[0] w-[60%] h-[80%] rounded-full white__gradient bottom-40" /> */}
         <div className="absolute z-[0] w-[25%] h-[50%] right-20 bottom-20 blue__gradient" />
         {/* gradient end */}
       </div>
