@@ -34,9 +34,9 @@ export const features = [
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "#13 @ Volga 21 World Finals",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "bi0s qualified and were invited for the Volga 2021 world finals at Russia.",
   },
   {
     id: "feature-3",
@@ -52,24 +52,24 @@ export const feedback = [
     id: "feedback-1",
     content:
       "I can vouch for their superior technical skills, dedication and enthusiasm. The training they receive is excellent. ",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    name: "Information Secuirty Engineer",
+    title: "Cisco",
+    // img: people01,
   },
   {
     id: "feedback-2",
     content:
       "Freshers from Amrita are better than experienced people I have hired from outside. 8 out of 12 people in the security team are Amrita alumni.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+    name: "Senior Manager, Product Security",
+    title: "VMware",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
       "I am very happy with their performance, especially level of understanding in cyber security.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    name: "Divyanshu Verma, Sr. Manager",
+    title: "Intel R&D",
     // img: people03,
   },
 ];
