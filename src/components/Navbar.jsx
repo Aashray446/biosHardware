@@ -9,11 +9,11 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <li>
+    <nav className="w-full flex py-2 justify-between items-center navbar">
+
+      <Link to="/">
         <img src={biosLogo} alt="hoobank" className="w-[150px] h-[130px]" />
-      </li>
-     
+      </Link>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
