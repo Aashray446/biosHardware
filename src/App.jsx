@@ -10,6 +10,7 @@ import {
   Testimonials,
   Hero,
   Card,
+  InfoCard,
 } from "./components";
 
 const App = () => (
@@ -30,6 +31,8 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Business />
+        <InfoCard />
+        <div className="mt-6"></div>
         <Card />
         <Billing />
         <Testimonials />
