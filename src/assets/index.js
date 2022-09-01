@@ -23,8 +23,13 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+<<<<<<< HEAD
 import WebSecurity from './WebSecurity.png';
 import biosLogo from './bios.png';
+=======
+import WebSecurity from "./WebSecurity.png";
+import biosLogo from "./bios.png";
+>>>>>>> 1544dae85cf3a331904b97eda186077a358a7d32
 
 export {
   airbnb,
