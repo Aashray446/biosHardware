@@ -111,6 +111,7 @@ const CardContainer = styled.div`
         font-size: 30px;
         text-align: left;
         padding-bottom: 2rem;
+        padding-right: 2rem;
     }
     .grid-item-text {
         font-size: 1rem;
