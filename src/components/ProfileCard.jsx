@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Card() {
+export default function ProfileCard() {
   return (
     <>
-      <div className="flex justify-center w-[365px] h-[396px]">
-        <div className="rounded-lg shadow-lg bg-white max-w-sm">
+      <div className="flex justify-center w-[365px] h-[396px] hover:scale-105 duration-100">
+        <div className="rounded-lg shadow-lg bg-white max-w-sm ">
           <a href="#!">
             <div className="flex justify-center mt-5">
               <img
@@ -13,7 +13,7 @@ export default function Card() {
                 alt=""
               />
             </div>
-          </a>
+          
           <div className="p-6">
             <h5 className="text-gray-900 text-4xl font-medium mb-2 text-center">
               Card title
@@ -23,6 +23,7 @@ export default function Card() {
             </p>
             <p>Lorem ipsum dolor sit.</p>
           </div>
+          </a>
         </div>
       </div>
     </>

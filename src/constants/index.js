@@ -77,82 +77,83 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "CTF Team in India",
-    value: "#1",
+    title: "#1 CTF Team in India",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "CVE's and Bug Bounties",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Cyber security",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Pages",
+        link: "",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Events",
+        link: "",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Members",
+        link: "",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Achievements",
+        link: "",
       },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
+      // {
+      //   name: "Terms & Services",
+      //   link: "https://www.bi0s.com/terms-and-services/",
+      // },
     ],
   },
   {
-    title: "Community",
+    title: "Company",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Hardware",
+        link: "",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Software",
+        link: "",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "Pentest",
+        link: "",
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        name: "bi0s wiki",
+        link: "",
       },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+      // {
+      //   name: "Newsletters",
+      //   link: "https://www.bi0s.com/newsletters/",
+      // },
     ],
   },
   {
-    title: "Partner",
+    title: "Get in touch",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Kollam, Kerala",
+        link: "",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "+91 7034225699",
+        link: "",
+      },
+      {
+        name: "amritabi0s1@gmail.com",
+        link: "",
       },
     ],
   },
