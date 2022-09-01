@@ -23,7 +23,6 @@ const Navbar = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
-        <li className="font-poppins font-normal cursor-pointer text-[16px] text-white ml-8"><a href="https://www.google.co.in/" target='_blank'>Team</a></li>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
