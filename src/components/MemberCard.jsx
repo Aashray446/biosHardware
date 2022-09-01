@@ -10,8 +10,8 @@ export default function MemberCard(props) {
                         <img src={props.profilePic} className="w-[200px] h-[200px] rounded-full border-solid border-white border-2 -mt-3" />
                     </div>
                     <div className="text-center px-3 pb-6 pt-2">
-                        <h3 className="font-poppins text-2xl font-semibold mt-5">{props.name}</h3>
-                        <p className="mt-2 font-poppins font-semibold">{props.fields}</p>
+                        <h3 className="text-white font-poppins text-2xl font-semibold mt-5">{props.name}</h3>
+                        <p className="text-white mt-2 font-poppins font-semibold">{props.fields}</p>
                     </div>
                     <div className="flex justify-center pb-3">
                     </div>
