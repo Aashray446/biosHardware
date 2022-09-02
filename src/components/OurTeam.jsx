@@ -2,18 +2,14 @@ import React from "react";
 import MemberCard from "./MemberCard";
 import HomepageAlumni from '../../json/HomepageAlumni.json'
 import { Link } from 'react-router-dom';
-import Teampage from "./Teampage";
 
 export default function OurTeam() {
 
   return (
     <>
-      <div id="team" className="mb-[5rem]">
+      <div id="team" className="my-[8rem]">
         <div className="flex flex-row items-center text-left">
-        {/* <h2 className={styles.heading2}>
-      Our Hardware CTF
-      </h2> */}
-          <h1 className="text-white text-4xl font-extrabold mb-10 font-poppins justify-start">
+          <h1 className="text-white font-semibold xs:text-[48px] text-[40px] mb-10  xs:leading-[76.8px] leading-[66.8px] font-poppins justify-start">
             Our Team
           </h1>
           <Link to="/team">
@@ -31,7 +27,6 @@ export default function OurTeam() {
           })}
         </div>
       </div>
-      {/* <Teampage /> */}
     </>
   );
 }

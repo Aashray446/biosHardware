@@ -9,7 +9,7 @@ export default function Teampage() {
         <>
             <h1 className='text-white text-center text-[60px] font-poppins font-semibold'>Our <span className='text-[#5CE1E6]'>Team</span></h1>
             <br /> <br />
-            <h3 className='text-white text-center text-[45px] font-bold'>Current team</h3>
+            <h3 className='text-white font-semibold xs:text-[50px] text-[40px] mb-10  xs:leading-[76.8px] leading-[66.8px] font-poppins text-center'>Current team</h3>
             <br /> <br />
 
             {/* current team mapping */}
@@ -22,7 +22,7 @@ export default function Teampage() {
             </div>
 
             <br />
-            <h1 className='text-white text-center text-[60px] font-poppins font-semibold'>Alumni</h1>
+            <h1 className='text-white text-center text-[50px] font-poppins font-semibold'>Alumni</h1>
             <br /> <br />
 
             {/* alumni mapping */}

@@ -1,22 +1,26 @@
 [
-    {
-        "name": "Mohan",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/mon.jpeg"
-    },
-    {
-        "name": "Mohan",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/mon.jpeg"
-    },
-    {
-        "name": "Mohan",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/mon.jpeg"
-    },
-    {
-        "name": "Mohan",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/mon.jpeg"
-    }
+  {
+    "name": "Mohan",
+    "fields": "wireless, automotive",
+    "image": "../src/assets/man.jpeg",
+    "link": ""
+  },
+  {
+    "name": "Mohan",
+    "fields": "wireless, automotive",
+    "image": "../src/assets/man.jpeg",
+    "link": ""
+  },
+  {
+    "name": "Mohan",
+    "fields": "wireless, automotive",
+    "image": "../src/assets/man.jpeg",
+    "link": ""
+  },
+  {
+    "name": "Mohan",
+    "fields": "wireless, automotive",
+    "image": "../src/assets/man.jpeg",
+    "link": ""
+  }
 ]
