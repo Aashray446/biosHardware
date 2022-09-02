@@ -16,7 +16,7 @@ export default function Teampage() {
             <div className="grid grid-cols-4">
                 {AllMembers.map((member, index) => {
                     return (
-                        <MemberCard key={index} name={member.name} fields={member.fields} profilePic={member.image} />
+                        <MemberCard key={index} name={member.name} fields={member.fields} profilePic={member.image} link={member.link} />
                     )
                 })}
             </div>
@@ -29,7 +29,7 @@ export default function Teampage() {
             <div className="grid grid-cols-4">
                 {AllAlumni.map((member, index) => {
                     return (
-                        <MemberCard key={index} name={member.name} fields={member.fields} profilePic={member.image} />
+                        <MemberCard key={index} name={member.name} fields={member.fields} profilePic={member.image} link={member.link}/>
                     )
                 })}
             </div>
