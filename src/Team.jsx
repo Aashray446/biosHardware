@@ -8,7 +8,10 @@ function Team() {
       <TeamPage />
       {/* gradient start */}
       <div className="absolute z-[-0] w-[20%] h-[35%] top-[100vh] cyan__gradient" />
-      {/* <div className="absolute z-[0] w-[60%] h-[80%] rounded-full white__gradient bottom-40" /> */}
+      <div className="absolute z-[0] w-[40%] h-[40%] top-24 left-[75vw] rounded-full white__gradient " />
+      <div className="absolute z-[0] w-[30%] h-[40%] top-28 left-[75vw] rounded-full blue__gradient " />
+      <div className="absolute z-[0] w-[40%] h-[40%] top-[185vh] left-[10vw] rounded-full white__gradient " />
+      <div className="absolute z-[0] w-[30%] h-[40%] top-[190vh] left-[10vw] rounded-full blue__gradient " />
       <div className="absolute z-[0] w-[25%] h-[50%] right-20 top-[105vh] blue__gradient" />
       {/* gradient end */}
     </div>

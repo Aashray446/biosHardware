@@ -1,4 +1,5 @@
 import { people02, facebook, instagram, linkedin, twitter, send, shield, star } from "../assets";
+import youtube from '../assets/youtube.svg';
 
 export const navLinks = [
   {
@@ -163,21 +164,26 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/bi0shardware/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/teambi0s/",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/teambi0s",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/teambi0s/?originalSubdomain=in",
   },
+  {
+    id: "social-media-5",
+    icon: youtube,
+    link: "https://www.youtube.com/user/InCTF"
+  }
 ];

@@ -22,7 +22,7 @@ export default function OurTeam() {
         <div className="grid grid-cols-4">
           {HomepageAlumni.map((member, index) => {
             return (
-              <MemberCard key={index} name={member.name} fields={member.fields} profilePic={member.image} />
+              <MemberCard key={index} name={member.name} fields={member.fields} profilePic={member.image} link={member.link}/>
             )
           })}
         </div>
