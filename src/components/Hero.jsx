@@ -1,6 +1,7 @@
 import styles from "../style";
 import { WebSecurity } from "../assets/";
 
+
 const Hero = () => {
   return (
     <section

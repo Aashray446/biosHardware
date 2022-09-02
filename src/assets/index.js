@@ -27,6 +27,7 @@ import WebSecurity from './WebSecurity.png';
 import biosLogo from './bios.png';
 // import man from 'man.jpeg';
 
+
 export {
   airbnb,
   bill,

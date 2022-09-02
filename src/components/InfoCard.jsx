@@ -66,6 +66,8 @@ const CardContainer = styled.div`
     font-weight: bold;
     margin-top: 1rem;
     margin-left: 0.1875rem;
+
+
   }
   .small-container {
     display: flex;
