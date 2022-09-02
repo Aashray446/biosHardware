@@ -23,6 +23,7 @@ export default function TeamPage() {
               name={member.name}
               fields={member.fields}
               profilePic={member.image}
+              link={member.link}
             />
           );
         })}
@@ -41,6 +42,7 @@ export default function TeamPage() {
               name={member.name}
               fields={member.fields}
               profilePic={member.image}
+              link={member.link}
             />
           );
         })}
