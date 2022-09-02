@@ -2,7 +2,7 @@ import styles from "../style";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col `}>
+  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col pu-16`}>
     <div id="contact" className={`${styles.flexStart} md:flex-row flex-col mb-2 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <h2 className={`${styles.heading2}`}>GPT-3</h2>

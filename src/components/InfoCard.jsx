@@ -67,6 +67,7 @@ const CardContainer = styled.div`
     margin-top: 1rem;
     margin-left: 0.1875rem;
 
+
   }
   .small-container {
     display: flex;
@@ -148,7 +149,7 @@ const InfoCard = () => {
         </section>
         <span></span>
         <section>
-          <h1 className="align-left">Our Fields of Research</h1>
+        <h1 className="align-left">Our Fields of Research</h1>
           <div
             className="side-text align-right"
             onClick={() => {

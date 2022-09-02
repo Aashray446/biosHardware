@@ -2,11 +2,13 @@ import { useState } from "react";
 
 import { close, biosLogo, menu } from "../assets";
 import { navLinks } from "../constants";
-import { Link } from "react-router-dom";
+import { Link,useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+  let location = useLocation();
+  console.log(location.pathname);
 
   return (
     <nav className="w-full flex py-2 justify-between items-center navbar">
@@ -15,7 +17,9 @@ const Navbar = () => {
         <img src={biosLogo} alt="hoobank" className="w-[150px] h-[130px]" />
       </Link>
 
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+     {location.pathname!=='/team'?
+      <div>
+         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -27,7 +31,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
+      
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
@@ -54,6 +58,12 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      </div>:<div className="text-white hover:underline mr-16" >
+        <Link to='/'>
+            Home
+        </Link>
+      </div>
+     }
     </nav>
   );
 };
