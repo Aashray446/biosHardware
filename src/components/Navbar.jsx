@@ -8,7 +8,6 @@ const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
   let location = useLocation();
-  console.log(location.pathname);
 
   return (
     <nav className="w-full flex py-2 justify-between items-center navbar">

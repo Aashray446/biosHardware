@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "@emotion/styled";
+import CarouselCard from "./CarouselCard";
+import findScreenWidth from "../hooks/ScreenWidth";
 
 const CardContainer = styled.div`
   :root {
@@ -132,7 +134,58 @@ const CardContainer = styled.div`
     cursor: pointer;
   }
 `;
+
+const infoCardList = [
+  {
+    title: "Embedded Systems",
+    content: `Embedded systems include a variety of hardware and software
+    components, which perform specific functions in host systems,
+    for example, satellites, washing machines, robots, hand-held
+    telephones and automobiles.`,
+  },
+  {
+    title: "Firmware Analysis",
+    content: `Firmware is the code that runs on an embedded device.In
+    embedded systems, manufacturers usually go for functionality
+    over security to decrease manufacturing cost.We analyze the
+    firmware, to find various security vulnerabilities present.`,
+  },
+  {
+    title: "Wireless Security",
+    content: `As everything is getting mobile and wireless, the urgency for
+    effective wireless threat protection is on everyone's watch,
+    as wireless networks are developed rapidly making them
+    vulnerable in a myriad of ways.`,
+  },
+  {
+    title: "Automotive Security",
+    content: `With consumers expecting new complex features for their ride,
+    it's getting difficult for engineers to make systems that go
+    hand in hand with security and required technicalities. We
+    look into the extremely complex systems of vehicle security
+    and make sure that it keeps up with the new features.`,
+  },
+  {
+    title: "ICS / SCADA",
+    content: `SCADA and Industrial Control Systems systems have been
+    relatively excluded from security testing by the security
+    industry. This has made them vulnerable and leading to some
+    successful intrusions that have resulted in malicious
+    attackers obtaining administrative access to core systems.`,
+  },
+  {
+    title: "Side Channel Exploitation",
+    content: `A side-channel attack is a security exploit that aims to
+    gather information from or influence the program execution of
+    a system by measuring or exploiting indirect effects of the
+    system or its hardware -- rather than targeting the program or
+    its code directly.`,
+  },
+];
+
 const InfoCard = () => {
+  const width = findScreenWidth();
+
   return (
     <CardContainer>
       <div id="research" className="card">
@@ -149,7 +202,7 @@ const InfoCard = () => {
         </section>
         <span></span>
         <section>
-        <h1 className="align-left">Our Fields of Research</h1>
+          <h1 className="align-left">Our Fields of Research</h1>
           <div
             className="side-text align-right"
             onClick={() => {
@@ -160,73 +213,27 @@ const InfoCard = () => {
           </div>
         </section>
         <span></span>
-        <section>
-          <div className="grid-container">
-            <div className="grid-item">
-              <hr className="grounded-radiants" />
-              <h2>Embedded Systems</h2>
-              <p className="grid-item-text">
-                Embedded systems include a variety of hardware and software
-                components, which perform specific functions in host systems,
-                for example, satellites, washing machines, robots, hand-held
-                telephones and automobiles.
-              </p>
+        {width > 768 ? (
+          <section>
+            <div className="grid-container">
+              {infoCardList.map((item, index) => (
+                <div key={`item_${index}`}>
+                  <div className="grid-item">
+                    <hr className="grounded-radiants" />
+                    <h2>{item.title}</h2>
+                    <p className="grid-item-text">{item.content}</p>
+                  </div>
+                </div>
+              ))}
             </div>
-            <div className="grid-item">
-              <hr className="grounded-radiants" />
-              <h2>Firmware Analysis</h2>
-              <p className="grid-item-text">
-                Firmware is the code that runs on an embedded device.In embedded
-                systems, manufacturers usually go for functionality over
-                security to decrease manufacturing cost.We analyze the firmware,
-                to find various security vulnerabilities present.
-              </p>
-            </div>
-            <div className="grid-item">
-              <hr className="grounded-radiants" />
-              <h2>Wireless Security</h2>
-              <p className="grid-item-text">
-                As everything is getting mobile and wireless, the urgency for
-                effective wireless threat protection is on everyone's watch, as
-                wireless networks are developed rapidly making them vulnerable
-                in a myriad of ways.
-              </p>
-            </div>
-            <div className="grid-item">
-              <hr className="grounded-radiants" />
-              <h2>Automotive Security</h2>
-              <p className="grid-item-text">
-                With consumers expecting new complex features for their ride,
-                it's getting difficult for engineers to make systems that go
-                hand in hand with security and required technicalities. We look
-                into the extremely complex systems of vehicle security and make
-                sure that it keeps up with the new features.
-              </p>
-            </div>
-            <div className="grid-item">
-              <hr className="grounded-radiants" />
-              <h2>ICS / SCADA</h2>
-              <p className="grid-item-text">
-                SCADA and Industrial Control Systems systems have been
-                relatively excluded from security testing by the security
-                industry. This has made them vulnerable and leading to some
-                successful intrusions that have resulted in malicious attackers
-                obtaining administrative access to core systems.
-              </p>
-            </div>
-            <div className="grid-item">
-              <hr className="grounded-radiants" />
-              <h2>Side Channel Exploitation</h2>
-              <p className="grid-item-text">
-                A side-channel attack is a security exploit that aims to gather
-                information from or influence the program execution of a system
-                by measuring or exploiting indirect effects of the system or its
-                hardware -- rather than targeting the program or its code
-                directly.
-              </p>
-            </div>
-          </div>
-        </section>
+          </section>
+        ) : (
+          <CarouselCard
+            contentList={infoCardList}
+            maxVisibility={2}
+            width={width}
+          />
+        )}
       </div>
     </CardContainer>
   );
