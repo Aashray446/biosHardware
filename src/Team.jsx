@@ -2,7 +2,8 @@ import React from 'react'
 import Teampage from './components/Teampage'
 
 function Team() {
-  document.body.scrollTop = document.documentElement.scrollTop = 0;
+  // document.body.scrollTop = document.documentElement.scrollTop = 0;
+  window.scrollTo(0, 0)
   return (
     <div className='h-100vh'>
       {/* <h3>This is Team Page</h3> */}
