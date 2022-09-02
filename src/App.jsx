@@ -1,12 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styles from "./style";
-import {
-  Footer,
-  Navbar,
-  Hero,
-} from "./components";
+import { Footer, Navbar, Hero } from "./components";
 import Home from "./Home";
 import Team from "./Team";
+import ScrollToTop from "../ScrollToTop";
 
 const App = () => (
   <BrowserRouter>
@@ -20,6 +17,7 @@ const App = () => (
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
+            <ScrollToTop />
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route exact path="/team" element={<Team />} />
