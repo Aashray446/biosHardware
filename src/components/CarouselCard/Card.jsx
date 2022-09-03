@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../../scss/carousel-card.scss";
 
 const CARDS = 10;

@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styled from "@emotion/styled";
-import CarouselCard from "./CarouselCard";
+// import CarouselCard from "./CarouselCard";
+import CarouselCardV2 from "./CarouselCard2";
 import findScreenWidth from "../hooks/ScreenWidth";
 
 const CardContainer = styled.div`
@@ -63,6 +64,7 @@ const CardContainer = styled.div`
   }
   h2 {
     font-size: 1.5rem;
+    text-align: left; 
     color:#fff;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-weight: bold;
@@ -228,11 +230,12 @@ const InfoCard = () => {
             </div>
           </section>
         ) : (
-          <CarouselCard
-            contentList={infoCardList}
-            maxVisibility={2}
-            width={width}
-          />
+          // <CarouselCard
+          //   contentList={infoCardList}
+          //   maxVisibility={2}
+          //   width={width}
+          // />
+          <CarouselCardV2 />
         )}
       </div>
     </CardContainer>
