@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-// import CarouselCard from "./CarouselCard";
-import CarouselCardV2 from "./CarouselCard2";
+import CarouselCard from "./CarouselCard";
 import findScreenWidth from "../hooks/ScreenWidth";
 
 const CardContainer = styled.div`
@@ -228,13 +227,11 @@ const InfoCard = () => {
             </div>
           </section>
         ) : (
-          // <CarouselCard
-          //   contentList={infoCardList}
-          //   maxVisibility={2}
-          //   width={width}
-          // />
-          // <div></div>
-          <CarouselCardV2 />
+          <CarouselCard
+            contentList={infoCardList}
+            maxVisibility={2}
+            width={width}
+          />
         )}
       </div>
     </CardContainer>
