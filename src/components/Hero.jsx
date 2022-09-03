@@ -1,6 +1,5 @@
 import styles from "../style";
 import { WebSecurity } from "../assets/";
-import "./Hero.css";
 import styled from "@emotion/styled";
 
 const HeroContainer = styled.div`

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
-import CarouselCard from "./CarouselCard";
+// import CarouselCard from "./CarouselCard";
+import CarouselCardV2 from "./CarouselCard2";
 import findScreenWidth from "../hooks/ScreenWidth";
 
 const CardContainer = styled.div`
@@ -61,7 +62,7 @@ const CardContainer = styled.div`
     color: rgb(88 199 250 / 100%);
     margin: 3rem 3rem 1rem 3rem;
   }
-  h2 {
+  .text-highlight {
     font-size: 1.5rem;
     text-align: left; 
     color:#fff;
@@ -69,8 +70,6 @@ const CardContainer = styled.div`
     font-weight: bold;
     margin-top: 1rem;
     margin-left: 0.1875rem;
-
-
   }
   .small-container {
     display: flex;
@@ -193,7 +192,7 @@ const InfoCard = () => {
         <section>
           <div className="small-container">
             <hr className="grounded-radiants" />
-            <h2>What's Going Inside</h2>
+            <div className="text-highlight">What's Going Inside</div>
           </div>
           <div className="headline-text">
             We at bi0s, continuously research,work on improving and creating new
@@ -221,7 +220,7 @@ const InfoCard = () => {
                 <div key={`item_${index}`}>
                   <div className="grid-item">
                     <hr className="grounded-radiants" />
-                    <h2>{item.title}</h2>
+                    <div className="text-highlight">{item.title}</div>
                     <p className="grid-item-text">{item.content}</p>
                   </div>
                 </div>
@@ -229,11 +228,13 @@ const InfoCard = () => {
             </div>
           </section>
         ) : (
-          <CarouselCard
-            contentList={infoCardList}
-            maxVisibility={2}
-            width={width}
-          />
+          // <CarouselCard
+          //   contentList={infoCardList}
+          //   maxVisibility={2}
+          //   width={width}
+          // />
+          // <div></div>
+          <CarouselCardV2 />
         )}
       </div>
     </CardContainer>

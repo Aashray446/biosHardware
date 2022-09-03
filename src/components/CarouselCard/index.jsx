@@ -36,7 +36,7 @@ const CarouselCard = ({ contentList, maxVisibility, width }) => {
 
   return (
     <section>
-      <div className="">
+      <div>
         <Carousel
           maxVisibility={maxVisibility}
           height={height}
