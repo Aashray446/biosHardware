@@ -107,6 +107,9 @@
   }
 }
 
+.feature-card{
+  transition: all 3s ease;
+}
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
@@ -122,6 +125,7 @@
 
 .feedback-card:hover {
   background: var(--black-gradient);
+ 
 }
 
 .blue__gradient {
@@ -143,3 +147,5 @@
   background: rgba(255, 255, 255, 0.476);
   filter: blur(750px);
 }
+
+
