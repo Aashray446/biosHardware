@@ -15,7 +15,7 @@ export default function TeamPage() {
       </h3>
       <br /> <br />
       {/* current team mapping */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
         {AllMembers.map((member, index) => {
           return (
             <MemberCard
@@ -34,7 +34,7 @@ export default function TeamPage() {
       </h1>
       <br /> <br />
       {/* alumni mapping */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4">
+      <div className="grid grid-cols-2 m-[-1] sm:grid-cols-3 md:grid-cols-4">
         {AllAlumni.map((member, index) => {
           return (
             <MemberCard
