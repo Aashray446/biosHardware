@@ -149,11 +149,11 @@ export const footerLinks = [
         link: "",
       },
       {
-        name: "+91 7034225699",
+        name: "+91 7012686669",
         link: "",
       },
       {
-        name: "amritabi0s1@gmail.com",
+        name: "Teambi0shardware@gmail.com",
         link: "",
       },
     ],

@@ -3,7 +3,7 @@ import React from 'react'
 export default function MemberCard(props) {
     return (
         <>
-            <div className='ml-3 mr-3 grid grid-cols-1 z-[50]'>
+            <div className='ml-3 mr-3 grid grid-cols-1 z-[50] scale-90 lg:scale-100'>
                 <a href={props.link}>
                 <div className="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 bg-gradient-to-t from-[#006979] to-[#000B4B] hover:scale-105 duration-150">
                     <div className="w-full h-[125px] bg-white"></div>

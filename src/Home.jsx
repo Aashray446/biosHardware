@@ -3,7 +3,7 @@ import styles from "./style";
 import Hero from "./components/Hero";
 import {
   About,
-  CardDeal,
+  // CardDeal,
   Stats,
   Testimonials,
   InfoCard,
@@ -11,21 +11,19 @@ import {
 import OurTeam from "./components/OurTeam";
 
 
-
-
 function Home() {
   return (
     <div>
          <div className={`bg-primary ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
+          {/* <div className={`${styles.boxWidth}`}> */}
             <Hero />
-          </div>
+          {/* </div> */}
         </div>
       <Stats />
           <About />
           <InfoCard />
           <Testimonials />
-          <CardDeal />
+          {/* <CardDeal /> */}
           <OurTeam />
     </div>
   );
