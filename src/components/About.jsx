@@ -28,7 +28,7 @@ const About = () => (
         We research about security that starts right from the circuit board to making tools and devices to make trusted, dependable and secure hardware.
       </p>
 
-      <Button styles={`mt-10`} text='Our Achievements' />
+      {/* <Button styles={`mt-10`} text='Our Achievements' /> */}
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

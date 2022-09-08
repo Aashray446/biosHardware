@@ -24,6 +24,7 @@ const Carousel = ({ children, maxVisibility = 3, height, width }) => {
       {React.Children.map(children, (child, i) => (
         <div
           className="card-container"
+          key={i}
           style={{
             "--active": i === active ? 1 : 0,
             "--offset": (active - i) / 3,

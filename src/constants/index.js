@@ -39,13 +39,13 @@ export const features = [
     content:
       "bi0s qualified and were invited for the Volga 2021 world finals at Russia.",
   },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
+  // {
+  //   id: "feature-3",
+  //   icon: send,
+  //   title: "Balance Transfer",
+  //   content:
+  //     "A balance transfer credit card can save you a lot of money in interest charges.",
+  // },
 ];
 
 export const feedback = [
