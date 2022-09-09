@@ -25,19 +25,19 @@ export const navLinks = [
 ];
 
 export const features = [
-  {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
+  // {
+  //   id: "feature-1",
+  //   icon: star,
+  //   title: "Rewards",
+  //   content:
+  //     "The best credit cards offer some tantalizing combinations of promotions and prizes",
+  // },
   {
     id: "feature-2",
     icon: shield,
     title: "#13 @ Volga 21 World Finals",
     content:
-      "bi0s qualified and were invited for the Volga 2021 world finals at Russia.",
+      "bi0s hardware qualified and were invited for the Volga 2021 world finals at Russia.",
   },
   // {
   //   id: "feature-3",

@@ -1,56 +1,74 @@
 [
     {
-        "name": "User Name",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/man.jpeg",
+        "name": "Ranit Pradhan",
+        "fields": "Wireless, Automotive",
+        "image": "http://bi0shardware.com/images/Passport.jpg",
         "link": ""
       },
       {
-        "name": "User Name",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/man.jpeg",
+        "name": "Athul Menon",
+        "fields": " Firmware",
+        "image": "http://bi0shardware.com/images/athul.webp",
         "link": ""
       },
       {
-        "name": "User Name",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/man.jpeg",
+        "name": "Aswin C",
+        "fields": "Firmware",
+        "image": "http://bi0shardware.com/images/photo_2021-08-26_16-32-51.jpg",
         "link": ""
       },
       {
-        "name": "User Name",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/man.jpeg",
+        "name": "Indraraj Biswas",
+        "fields": "Wireless, SCADA",
+        "image": "http://bi0shardware.com/images/indy-1.jpeg",
         "link": ""
       },
       {
-        "name": "User Name",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/man.jpeg",
+        "name": "Nidhin Naushad",
+        "fields": "Wireless",
+        "image": "http://bi0shardware.com/images/nidhinnaushad.webp",
         "link": ""
       },
       {
-        "name": "User Name",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/man.jpeg",
+        "name": "Saurav Panigrahi",
+        "fields": "SCADA, Embedded",
+        "image": "http://bi0shardware.com/images/Screenshot2022-08-28at1_25_32AM.webp",
         "link": ""
       },
       {
-        "name": "User Name",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/man.jpeg",
+        "name": "Sreesankar S",
+        "fields": "Embedded, Wireleess",
+        "image": "http://bi0shardware.com/images/Screenshot_20220807-223539_WhatsApp.jpg",
         "link": ""
       },
       {
-        "name": "User Name",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/man.jpeg",
+        "name": "Narikodan Hridul",
+        "fields": "Wireless",
+        "image": "http://bi0shardware.com/images/FINAL.jpg",
         "link": ""
       },
       {
-        "name": "User Name",
-        "fields": "wireless, automotive",
-        "image": "../src/assets/man.jpeg",
+        "name": "Gautham JB",
+        "fields": "Wireless",
+        "image": "http://bi0shardware.com/images/jb.jpg",
+        "link": ""
+      },
+      {
+        "name": "Ghan Shyam",
+        "fields": "Firmware, Embedded",
+        "image": "http://bi0shardware.com/images/shyam.jpg",
+        "link": ""
+      },
+      {
+        "name": "Kiran SP",
+        "fields": "Automotive",
+        "image": "http://bi0shardware.com/images/1659159967996.jpg",
+        "link": ""
+      },
+      {
+        "name": "Archit Kak",
+        "fields": "Automotive",
+        "image": "http://bi0shardware.com/images/6F1A3904.jpg",
         "link": ""
       }
 ]
