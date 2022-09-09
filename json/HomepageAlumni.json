@@ -1,26 +1,26 @@
 [
   {
-    "name": "Mohan",
+    "name": "K M Keethana",
     "fields": "wireless, automotive",
-    "image": "../src/assets/man.jpeg",
+    "image": "http://bi0shardware.com/images/K.M.Keerthana.jpeg",
     "link": ""
   },
   {
-    "name": "Mohan",
-    "fields": "wireless, automotive",
-    "image": "../src/assets/man.jpeg",
+    "name": "Ashwin Nambiar",
+    "fields": "SCADA",
+    "image": "http://bi0shardware.com/images/CopyofAshwinNambiar.jpeg",
     "link": ""
   },
   {
-    "name": "Mohan",
+    "name": "Hariprasad KV",
     "fields": "wireless, automotive",
-    "image": "../src/assets/man.jpeg",
+    "image": "http://bi0shardware.com/images/CopyofHariprasadKV.jpeg",
     "link": ""
   },
   {
-    "name": "Mohan",
-    "fields": "wireless, automotive",
-    "image": "../src/assets/man.jpeg",
+    "name": "Arya Sudharshan",
+    "fields": "Embedded",
+    "image": "http://bi0shardware.com/images/AryaSudarsan.jpeg",
     "link": ""
   }
 ]
