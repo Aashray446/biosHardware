@@ -1,56 +1,62 @@
 [
   {
-    "name": "User Name",
-    "fields": "wireless, automotive",
-    "image": "../src/assets/mon.jpeg",
+    "name": "Season Cheriyan",
+    "fields": "Embedded",
+    "image": "http://bi0shardware.com/images/CopyofSeasonCherian.jpg",
     "link": ""
   },
   {
-    "name": "User Name",
-    "fields": "wireless, automotive",
-    "image": "../src/assets/mon.jpeg",
+    "name": "Ashwin Nambiar",
+    "fields": "SCADA",
+    "image": "http://bi0shardware.com/images/CopyofAshwinNambiar.jpeg",
     "link": ""
   },
   {
-    "name": "User Name",
+    "name": "Hariprasad KV",
     "fields": "wireless, automotive",
-    "image": "../src/assets/mon.jpeg",
+    "image": "http://bi0shardware.com/images/CopyofHariprasadKV.jpeg",
     "link": ""
   },
   {
-    "name": "User Name",
+    "name": "Vivek NJ",
     "fields": "wireless, automotive",
-    "image": "../src/assets/mon.jpeg",
+    "image": "http://bi0shardware.com/images/VivekNJ.jpeg",
     "link": ""
   },
   {
-    "name": "User Name",
+    "name": "K M Keethana",
     "fields": "wireless, automotive",
-    "image": "../src/assets/mon.jpeg",
+    "image": "http://bi0shardware.com/images/K.M.Keerthana.jpeg",
     "link": ""
   },
   {
-    "name": "User Name",
-    "fields": "wireless, automotive",
-    "image": "../src/assets/mon.jpeg",
+    "name": "Arya Sudharshan",
+    "fields": "Embedded",
+    "image": "http://bi0shardware.com/images/AryaSudarsan.jpeg",
     "link": ""
   },
   {
-    "name": "User Name",
-    "fields": "wireless, automotive",
-    "image": "../src/assets/mon.jpeg",
+    "name": "Aathira Dineshan",
+    "fields": "Firmware",
+    "image": "http://bi0shardware.com/images/AathiraDineshan1.jpg",
     "link": ""
   },
   {
-    "name": "User Name",
-    "fields": "wireless, automotive",
-    "image": "../src/assets/mon.jpeg",
+    "name": "Amita Deep",
+    "fields": "Firmware",
+    "image": "http://bi0shardware.com/images/AmithaDeep.jpeg",
     "link": ""
   },
   {
-    "name": "User Name",
-    "fields": "wireless, automotive",
-    "image": "../src/assets/mon.jpeg",
+    "name": "Sai Ganesh K",
+    "fields": "Firmware",
+    "image": "http://bi0shardware.com/images/HariKrishnanJ.jpeg",
+    "link": ""
+  },
+  {
+    "name": "Sai Ganesh K",
+    "fields": "Firmware",
+    "image": "http://bi0shardware.com/images/KartheekLade.jpeg",
     "link": ""
   }
 ]
