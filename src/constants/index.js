@@ -32,13 +32,13 @@ export const features = [
   //   content:
   //     "The best credit cards offer some tantalizing combinations of promotions and prizes",
   // },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "#13 @ Volga 21 World Finals",
-    content:
-      "bi0s hardware qualified and were invited for the Volga 2021 world finals at Russia.",
-  },
+  // {
+  //   id: "feature-2",
+  //   icon: shield,
+  //   title: "#13 @ Volga 21 World Finals",
+  //   content:
+  //     "bi0s hardware qualified and were invited for the Volga 2021 world finals at Russia.",
+  // },
   // {
   //   id: "feature-3",
   //   icon: send,
