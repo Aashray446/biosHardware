@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "export" : "vite build --ssr && node dist/entry-server.js"
+    "deploy":"npm run build && git add dist -f && git commit -m'hosting'  && git subtree push --prefix dist origin gh-pages"
+
   },
   "dependencies": {
     "@emotion/styled": "^11.10.4",
