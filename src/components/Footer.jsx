@@ -6,9 +6,9 @@ const Footer = () => (
     <div id="contact" className={`${styles.flexStart} md:flex-row flex-col mb-2 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <h2 className={`${styles.heading2}`}>bi0S</h2>
-        {/* <p className={`${styles.paragraph} mt-4 max-w-[240px]`}>
-        Crechterwoord K12 182 DK Alknjkcb,All Rights Reserved
-        </p> */}
+        <p className={`${styles.paragraph} max-w-[240px]`}>
+        Hardware
+        </p>
       </div>
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10 ">

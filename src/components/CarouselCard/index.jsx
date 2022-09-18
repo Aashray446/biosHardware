@@ -13,8 +13,8 @@ const CarouselCard = ({ contentList, maxVisibility, width }) => {
     return max;
   };
 
-  const heightHandler = (max, divisor, additional = 0) => {
-    return max / divisor + additional + "rem";
+  const heightHandler = (max, divisor) => {
+    return max / divisor + "rem";
   };
 
   const max = maxFinder();
@@ -22,26 +22,22 @@ const CarouselCard = ({ contentList, maxVisibility, width }) => {
   const [height, setHeight] = useState(heightHandler(max, 10));
   useEffect(() => {
     if (width < 470) {
-      setHeight(heightHandler(max, 6, 5));
+      setHeight(heightHandler(max, 10));
       return;
     }
-    if (width < 500) setHeight(heightHandler(max, 7));
+    if (width < 500) setHeight(heightHandler(max, 12));
   }, [width]);
 
   const widthHandler = () => {
     if (width <= 768) {
-      return width / 50 + "rem";
+      return width / 30 + "rem";
     }
   };
 
   return (
     <section>
       <div>
-        <Carousel
-          maxVisibility={maxVisibility}
-          height={height}
-          width={widthHandler()}
-        >
+        <Carousel maxVisibility={maxVisibility} height={height} width={widthHandler()}>
           {contentList.map((item) => (
             <Card title={item.title} content={item.content} />
           ))}

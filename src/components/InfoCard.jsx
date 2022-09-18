@@ -200,7 +200,7 @@ const InfoCard = () => {
           </div>
         </section>
         <span></span>
-        <section>
+        <section className="flex flex-col md:flex-row ">
           <h1 className="align-left">Our Fields of Research</h1>
           <div
             className="side-text align-right"
