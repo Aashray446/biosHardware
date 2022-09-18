@@ -2,25 +2,25 @@
     {
       "name": "K M Keethana",
       "fields": "wireless, automotive",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Ashwin Nambiar",
       "fields": "SCADA",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Hariprasad KV",
       "fields": "wireless, automotive",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Arya Sudharshan",
       "fields": "Embedded",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     }
   ]

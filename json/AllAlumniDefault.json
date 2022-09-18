@@ -2,61 +2,61 @@
     {
       "name": "Season Cheriyan",
       "fields": "Embedded",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Ashwin Nambiar",
       "fields": "SCADA",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Hariprasad KV",
       "fields": "wireless, automotive",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Vivek NJ",
       "fields": "wireless, automotive",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "K M Keethana",
       "fields": "wireless, automotive",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Arya Sudharshan",
       "fields": "Embedded",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Aathira Dineshan",
       "fields": "Firmware",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Amita Deep",
       "fields": "Firmware",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Sai Ganesh K",
       "fields": "Firmware",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     },
     {
       "name": "Sai Ganesh K",
       "fields": "Firmware",
-      "image": "../src/assets/defaultImages.jpg",
+      "image": "./images/defaultImages.jpg",
       "link": ""
     }
   ]

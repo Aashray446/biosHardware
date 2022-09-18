@@ -17,7 +17,7 @@ export default function TeamPage() {
       </h3>
       <br /> <br />
       {/* current team mapping */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 mb-5">
         {AllMembersDef.map((member, index) => {
           return (
             <MemberCard

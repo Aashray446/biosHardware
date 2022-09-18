@@ -5,7 +5,7 @@ const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col pu-16`}>
     <div id="contact" className={`${styles.flexStart} md:flex-row flex-col mb-2 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
-        <h2 className={`${styles.heading2}`}>bi0S</h2>
+        <h2 className={`${styles.heading2}`}>bi0s</h2>
         <p className={`${styles.paragraph} max-w-[240px]`}>
         Hardware
         </p>
