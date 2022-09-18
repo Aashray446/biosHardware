@@ -1,6 +1,7 @@
 import React from "react";
 import MemberCard from "./MemberCard";
-import HomepageAlumni from "../../json/HomepageAlumni.json";
+// import HomepageAlumni from "../../json/HomepageAlumni.json";
+import HomepageAlumniDef from "../../json/HomepageAlumniDefault.json";
 import { Link } from "react-router-dom";
 
 export default function OurTeam() {
@@ -23,7 +24,7 @@ export default function OurTeam() {
         </div>
 
         <div className="grid md:grid-cols-4 sm:grid-cols-2">
-          {HomepageAlumni.map((member, index) => {
+          {HomepageAlumniDef.map((member, index) => {
             return (
               <MemberCard
                 key={index}

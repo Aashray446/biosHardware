@@ -1,6 +1,8 @@
 import React from "react";
-import AllMembers from "../../json/AllMembers.json";
-import AllAlumni from "../../json/AllAlumni.json";
+// import AllMembers from "../../json/AllMembers.json";
+// import AllAlumni from "../../json/AllAlumni.json";
+import AllMembersDef from "../../json/AllMembersDefault.json";
+import AllAlumniDef from "../../json/AllAlumniDefault.json";
 import MemberCard from "./MemberCard";
 
 export default function TeamPage() {
@@ -16,7 +18,7 @@ export default function TeamPage() {
       <br /> <br />
       {/* current team mapping */}
       <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4">
-        {AllMembers.map((member, index) => {
+        {AllMembersDef.map((member, index) => {
           return (
             <MemberCard
               key={index}
@@ -35,7 +37,7 @@ export default function TeamPage() {
       <br /> <br />
       {/* alumni mapping */}
       <div className="grid grid-cols-1 m-[-1] sm:grid-cols-3 md:grid-cols-4">
-        {AllAlumni.map((member, index) => {
+        {AllAlumniDef.map((member, index) => {
           return (
             <MemberCard
               key={index}
