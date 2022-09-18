@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-2 justify-between items-center navbar">
-      <Link to="/">
+      <Link to="/biosHardware">
         <img
           src={biosLogo}
           alt="Bios Hardware"
@@ -19,7 +19,7 @@ const Navbar = () => {
         />
       </Link>
 
-      {location.pathname !== "/team" ? (
+      {location.pathname !== "/biosHardware/team" ? (
         <div>
           <ul className="list-none sm:flex hidden justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
@@ -66,7 +66,7 @@ const Navbar = () => {
         </div>
       ) : (
         <div className="text-white hover:underline mr-16 z-[10]">
-          <Link to="/">Home</Link>
+          <Link to="/biosHardware">Home</Link>
         </div>
       )}
     </nav>

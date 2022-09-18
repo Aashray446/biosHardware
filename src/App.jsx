@@ -24,8 +24,8 @@ export default function App() {
               <div className={`${styles.boxWidth}`}>
                 <ScrollToTop />
                 <Routes>
-                  <Route exact path="/" element={<Home />} />
-                  <Route exact path="/team" element={<Team />} />
+                  <Route exact path="/biosHardware" element={<Home />} />
+                  <Route exact path="/biosHardware/team" element={<Team />} />
                 </Routes>
                 <Footer />
               </div>

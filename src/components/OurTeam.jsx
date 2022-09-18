@@ -14,7 +14,7 @@ export default function OurTeam() {
             </h1>
           </div>
           <div className="text-right w-1/2 mt-7 mr-3">
-            <Link to="/team">
+            <Link to="/biosHardware/team">
               <span className="rounded-full bg-transparent border-2 px-[1rem] py-2 text-lg border-cyan-700 text-cyan-100 hover:text-sky-500 text-semibold">
                 Show all
               </span>
